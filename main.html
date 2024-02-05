@@ -1,0 +1,77 @@
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: black;user-select: none;">
+    <div class="container">
+        <img class="image" src="background.jpg" alt="">
+        <div class="content-area">
+            <div class="navi">
+                <div class="contents">
+                    <a href="#">register</a>
+                    <h1>type k</h1>
+                    <a href="#">log in</a>
+                </div>
+                
+            </div>  
+            <div class="changetime">
+                <div class="but">
+                    <button onclick="changetime(0)">10</button>
+                    <button onclick="changetime(1)">20</button>
+                    <button onclick="changetime(2)">30</button>
+                </div>
+            </div>
+            <div class="content">
+                <ul class="details">
+                    <li class="time">
+                        <span><b>10</b>s</span>
+                        <p>
+                            Time Left:
+                        </p>
+                        
+                    </li>
+                    <li class="mistake">
+                        <span>0</span>
+                        <p>
+                            Mistakes:
+                        </p>
+                        
+                    </li>
+                    <li class="wpm">
+                        <span>0</span>
+                        <p>
+                            WPM:
+                        </p>
+                        
+                    </li>
+                    <li class="cpm">
+                        <span>0</span>
+                        <p>
+                            CPM:
+                        </p>
+                        
+                    </li>
+                </ul>
+                
+            </div>
+            <div class="type">
+                <div class="typing-space">
+                    <input type="text" class="text-area">
+                    <div class="data-word">
+                        <p></p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="button">
+                <button><p>tab</p></button>
+                <p>-</p>
+                <p>restart</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
